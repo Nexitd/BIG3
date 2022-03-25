@@ -1,0 +1,29 @@
+.header {
+	grid-area: header;
+	padding: 18px 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 1px 10px rgba(209, 209, 209, 0.5);
+}
+
+.profile {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.profile img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.profile > span {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #303030;
+	margin-right: 20px;
+}

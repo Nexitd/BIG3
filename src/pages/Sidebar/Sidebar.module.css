@@ -1,0 +1,36 @@
+.sidebar {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebarCont {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebarItem {
+    margin-bottom: 40px;
+}
+
+.sidebarCont img {
+    margin-bottom: 10px;
+}
+
+.text {
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9C9C9C;
+    text-decoration: none;
+}
+
+.active {
+    color: #E4163A;
+}

@@ -1,0 +1,44 @@
+.card {
+	background: #fff;
+	border-radius: 10px;
+	padding: 32px;
+	box-sizing: border-box;
+	max-width: 1140px;
+	margin: 32px auto 0;
+}
+
+.cardBody {
+	margin-top: 72px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.image, .form {
+	width: 335px;
+}
+
+.btn {
+	display: inline-block;
+}
+
+.title span {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #e4163a;
+}
+
+.btns {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cancel {
+	color: #9c9c9c;
+	background-color: #fff;
+	border: 1px solid #9c9c9c;
+	margin-right: 24px;
+}

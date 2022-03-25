@@ -1,0 +1,12 @@
+.input {
+	display: none;
+}
+
+.label {
+  display: block;
+	width: 100%;
+	height: 260px;
+	background: url('../../assets/images/AddPage/add_a_photo_24px_rounded.svg')#9c9c9c no-repeat center center;
+	opacity: 0.5;
+	border-radius: 10px;
+}

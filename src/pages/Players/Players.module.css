@@ -1,0 +1,50 @@
+.teams {
+	grid-area: main;
+	background: #F6F6F6;
+	padding: 40px 80px;
+}
+
+.teamsCont {
+	max-width: 1440px;
+	margin: 32px auto;
+}
+
+.teamsHeader {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.teamsHeader > div:first-of-type {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.cont {
+	width: 30%;
+	margin-left: 24px;
+}
+
+.btnCont {
+	width: 10%;
+}
+
+
+.search {   
+	background: url('../../assets/images/Teams/search.svg'), #fff;
+	background-repeat: no-repeat;
+	padding: 8px 12px;
+	background-position: right 12px center;
+	width: 100%;
+}
+
+.addBtn {
+	display: inline-block;
+	padding: 0 21px;
+	box-sizing: border-box;
+	margin-bottom: 0;
+}

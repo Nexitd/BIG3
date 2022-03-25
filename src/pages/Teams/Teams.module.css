@@ -1,0 +1,38 @@
+.teams {
+	grid-area: main;
+	background: #f6f6f6;
+	padding: 40px 80px;
+}
+
+.teamsCont {
+	max-width: 1440px;
+	margin: 32px auto;
+}
+
+.teamsHeader {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.teamsHeader > div {
+	width: 25%;
+}
+
+.btnCont {
+	width: 10%;
+}
+
+.search {
+	background: url("../../assets/images/Teams/search.svg"), #fff;
+	background-repeat: no-repeat;
+	padding: 8px 12px;
+	background-position: right 12px center;
+}
+
+.addBtn {
+	display: inline-block;
+	padding: 0 21px;
+	box-sizing: border-box;
+}

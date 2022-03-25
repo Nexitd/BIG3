@@ -1,0 +1,12 @@
+.container {
+	display: grid;
+	grid-template-areas:
+		"header header"
+		"sidebar main";
+	grid-template-rows: 80px 100vh;
+	grid-template-columns: 140px 1fr;
+}
+
+.mainCont {
+	background: #f6f6f6;
+}
